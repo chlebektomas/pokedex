@@ -1,8 +1,8 @@
 import { Pokemon } from "@/app/_types/types";
-import FavoriteButton from "../favorite-button/favorite-button";
-import PlaySoundButton from "../play-sound-button/play-sound-button";
+import FavoriteButton from "@/app/_components/favorite-button/favorite-button";
+import PlaySoundButton from "@/app/_components/play-sound-button/play-sound-button";
 import Image from "next/image";
-import styles from "./pokemon-detail.module.scss";
+import styles from "@/app/_components/pokemon-detail/pokemon-detail.module.scss";
 
 interface PokemonDetailProp {
 	pokemon: Pokemon;

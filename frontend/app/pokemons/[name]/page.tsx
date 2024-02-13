@@ -1,4 +1,4 @@
-import getPokemonByName from "../../_requests/get-pokemon-by-name";
+import getPokemonByName from "@/app/_requests/get-pokemon-by-name";
 import Container from "@/app/_components/container/container";
 import Evolutions from "@/app/_components/evolutions/evolutions";
 import PokemonDetail from "@/app/_components/pokemon-detail/pokemon-detail";

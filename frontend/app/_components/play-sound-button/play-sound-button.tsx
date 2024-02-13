@@ -1,7 +1,7 @@
 "use client";
 
 import { VolumeUpFilled } from "@carbon/icons-react";
-import styles from "./play-sound-button.module.scss";
+import styles from "@/app/_components/play-sound-button/play-sound-button.module.scss";
 
 interface PlaySoundButtonProps {
 	soundSrc: string;

@@ -3,7 +3,7 @@
 import Modal from "@carbon/react/lib/components/Modal/Modal";
 import { useState } from "react";
 import { PokemonCard } from "@/app/_types/types";
-import styles from "./preview.module.scss";
+import styles from "@/app/_components/preview/preview.module.scss";
 import { SearchLocate } from "@carbon/icons-react";
 
 interface PreviewProps {

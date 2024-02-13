@@ -3,7 +3,7 @@
 import { Favorite, FavoriteFilled } from "@carbon/icons-react";
 import setFavoritePokemon from "@/app/_requests/set-favorite-pokemon";
 import setUnFavoritePokemon from "@/app/_requests/set-un-favorite-pokemon";
-import styles from "./favorite-button.module.scss";
+import styles from "@/app/_components/favorite-button/favorite-button.module.scss";
 import { useContext } from "react";
 import ToastContext from "@/app/_contexts/toast-context";
 

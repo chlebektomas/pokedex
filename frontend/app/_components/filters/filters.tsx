@@ -4,7 +4,7 @@ import { Close, Menu, Thumbnail_2 } from "@carbon/icons-react";
 import { Dropdown, TextInput } from "@carbon/react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { ChangeEvent, useCallback, useState } from "react";
-import styles from "./filters.module.scss";
+import styles from "@/app/_components/filters/filters.module.scss";
 
 interface FiltersProps {
 	pokemonTypes: string[];
@@ -137,6 +137,7 @@ export default function Filters({ pokemonTypes }: FiltersProps) {
 						<Dropdown
 							id="type"
 							label="Type"
+							titleText=""
 							initialSelectedItem={
 								(type &&
 									type?.charAt(0).toUpperCase() +

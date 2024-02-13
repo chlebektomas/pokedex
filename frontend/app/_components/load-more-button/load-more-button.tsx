@@ -4,7 +4,7 @@ import { Button } from "@carbon/react";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useCallback } from "react";
-import styles from "./load-more-button.module.scss";
+import styles from "@/app/_components/load-more-button/load-more-button.module.scss";
 
 export default function LoadMoreButton() {
 	const router = useRouter();
@@ -21,7 +21,11 @@ export default function LoadMoreButton() {
 
 	return (
 		<div className={styles.loadMoreWrapper}>
-			<Button onClick={handleLoadMore} className={styles.loadMoreButton}>
+			<Button
+				kind="secondary"
+				onClick={handleLoadMore}
+				className={styles.loadMoreButton}
+			>
 				Load more
 			</Button>
 		</div>

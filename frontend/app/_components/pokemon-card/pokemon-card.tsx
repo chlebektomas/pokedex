@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import FavoriteButton from "../favorite-button/favorite-button";
-import styles from "./pokemon-card.module.scss";
+import FavoriteButton from "@/app/_components/favorite-button/favorite-button";
+import styles from "@/app/_components/pokemon-card/pokemon-card.module.scss";
 import Preview from "@/app/_components/preview/preview";
 import { PokemonCard as PokemonCardType } from "@/app/_types/types";
 

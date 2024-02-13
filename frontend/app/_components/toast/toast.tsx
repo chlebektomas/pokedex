@@ -1,5 +1,5 @@
 import { ToastNotification } from "@carbon/react";
-import styles from "./toast.module.scss";
+import styles from "@/app/_components/toast/toast.module.scss";
 
 interface ToastProps {
 	message: string;

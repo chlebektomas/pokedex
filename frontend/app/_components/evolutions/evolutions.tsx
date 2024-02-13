@@ -1,6 +1,6 @@
-import getPokemonById from "../../_requests/get-pokemon-by-id";
+import getPokemonById from "@/app/_requests/get-pokemon-by-id";
 import PokemonList from "@/app/_components/pokemon-list/pokemon-list";
-import styles from "./evolutions.module.scss";
+import styles from "@/app/_components/evolutions/evolutions.module.scss";
 import { Evolutions } from "@/app/_types/types";
 
 interface EvolutionsSectionProps {

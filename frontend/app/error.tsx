@@ -1,5 +1,7 @@
 "use client";
 
+import { Button } from "@carbon/react";
+
 export default function GlobalError({
 	error,
 	reset,
@@ -10,8 +12,8 @@ export default function GlobalError({
 	return (
 		<html>
 			<body>
-				<h2>Something went wrong!</h2>
-				<button onClick={() => reset()}>Try again</button>
+				<h1>Something went wrong!</h1>
+				<Button onClick={() => reset()}>Try again</Button>
 			</body>
 		</html>
 	);

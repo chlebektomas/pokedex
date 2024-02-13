@@ -54,7 +54,7 @@ export default async function getPokemons({
 }: getPokemonsProps) {
 	try {
 		let offset = 0;
-		const limitInt = Number(page + "0");
+		const limitInt = Number(page) * 12;
 		const isFavorite = !!favorites;
 
 		const { data } = await getClient().query({

@@ -3,7 +3,6 @@
 import { getClient } from "@/app/_lib/apollo-client";
 import { gql } from "@apollo/client";
 import { revalidatePath } from "next/cache";
-import { NextResponse } from "next/server";
 
 const UN_FAVORITE_POKEMON = gql`
 	mutation UnFavoritePokemon($id: ID!) {

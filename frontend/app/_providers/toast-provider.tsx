@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import Toast from "../_components/toast/toast";
-import ToastContext from "../_contexts/toast-context";
-import useToast from "../_hooks/useToast";
+import Toast from "@/app/_components/toast/toast";
+import ToastContext from "@/app/_contexts/toast-context";
+import useToast from "@/app/_hooks/useToast";
 
 export default function ToastProvider({
 	children,

@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./pokemon-list.module.scss";
-import PokemonCard from "../pokemon-card/pokemon-card";
+import styles from "@/app/_components/pokemon-list/pokemon-list.module.scss";
+import PokemonCard from "@/app/_components/pokemon-card/pokemon-card";
 import { PokemonCard as PokemonCardType } from "@/app/_types/types";
 
 interface PokemonListProps {

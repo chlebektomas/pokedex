@@ -1,9 +1,9 @@
-import getPokemons from "../_requests/get-pokemons";
-import getPokemonTypes from "../_requests/get-pokemons-types";
+import getPokemons from "@/app/_requests/get-pokemons";
+import getPokemonTypes from "@/app/_requests/get-pokemons-types";
 import Filters from "@/app/_components/filters/filters";
 import LoadMoreButton from "@/app/_components/load-more-button/load-more-button";
-import PokemonList from "../_components/pokemon-list/pokemon-list";
-import Container from "../_components/container/container";
+import PokemonList from "@/app/_components/pokemon-list/pokemon-list";
+import Container from "@/app/_components/container/container";
 
 interface PageProps {
 	searchParams: {
