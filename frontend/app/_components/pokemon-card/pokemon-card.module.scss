@@ -1,0 +1,91 @@
+.pokemonCard {
+	padding: 0.5rem;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem grey;
+
+	.imageWrapper {
+		width: 100%;
+		height: 200px;
+		position: relative;
+		overflow: hidden;
+
+		img {
+			object-fit: contain;
+			transition: all 0.3s ease-in-out;
+			padding: 1rem;
+		}
+
+		&:hover {
+			img {
+				transform: scale(1.1);
+			}
+		}
+	}
+
+	.info {
+		text-align: center;
+		margin: 0.5rem;
+
+		a {
+			transition: all 0.3s ease-in-out;
+
+			&:hover {
+				color: grey;
+			}
+		}
+	}
+
+	.favoriteButtonWrapper {
+		position: absolute;
+		top: 0.5rem;
+		right: 0.5rem;
+	}
+
+	.previewButtonWrapper {
+		position: absolute;
+		top: 0.5rem;
+		left: 0.5rem;
+	}
+}
+
+.pokemonCardList {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	border: 1px solid grey;
+	padding: 0.5rem 1rem;
+
+	.imageWrapper {
+		width: 80px;
+		height: 80px;
+		position: relative;
+
+		img {
+			object-fit: contain;
+		}
+	}
+
+	.info {
+		flex: 1;
+
+		h3 {
+			font-size: 1.2rem;
+		}
+
+		a {
+			transition: all 0.3s ease-in-out;
+
+			&:hover {
+				color: grey;
+			}
+		}
+	}
+
+	.favoriteButtonWrapper {
+		margin-left: auto;
+	}
+}

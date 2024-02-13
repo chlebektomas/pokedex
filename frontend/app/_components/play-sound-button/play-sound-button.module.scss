@@ -1,0 +1,11 @@
+.soundButton {
+	width: 1.5rem;
+	height: 1.5rem;
+	cursor: pointer;
+	color: #1d912f;
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}

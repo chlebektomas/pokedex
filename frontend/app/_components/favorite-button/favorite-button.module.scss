@@ -1,0 +1,13 @@
+.favoriteButton {
+	svg {
+		width: 1.5rem;
+		height: 1.5rem;
+		cursor: pointer;
+		color: #fd2525;
+		transition: all 0.3s ease-in-out;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}

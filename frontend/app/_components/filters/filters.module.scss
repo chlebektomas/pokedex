@@ -1,0 +1,98 @@
+.filtersWrapper {
+	margin-bottom: 1rem;
+
+	.tabs {
+		display: flex;
+		gap: 0.5rem;
+		margin-bottom: 0.5rem;
+
+		input {
+			display: none;
+		}
+
+		label {
+			flex: 1;
+			border: 1px solid grey;
+			color: grey;
+			padding: 0.5rem;
+			cursor: pointer;
+			text-align: center;
+		}
+
+		input:checked + label {
+			background: green;
+			color: white;
+		}
+	}
+
+	.filters {
+		display: flex;
+		gap: 0.5rem;
+
+		@media (max-width: 768px) {
+			flex-wrap: wrap;
+		}
+	}
+
+	.filterRow {
+		display: flex;
+		gap: 0.5rem;
+
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}
+
+	.dropdownWrapper {
+		position: relative;
+
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}
+
+	.dropdown {
+		width: 150px;
+
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}
+
+	.dropdownClear {
+		position: absolute;
+		right: 2.3rem;
+		top: 50%;
+		transform: translateY(-50%);
+		color: red;
+
+		&:hover {
+			color: rgb(97, 4, 4);
+			cursor: pointer;
+		}
+	}
+
+	.listing {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+
+		input {
+			display: none;
+		}
+
+		label {
+			color: grey;
+			cursor: pointer;
+
+			svg {
+				width: 1.5rem;
+				height: 1.5rem;
+			}
+		}
+
+		input:checked + label {
+			color: green;
+		}
+	}
+}

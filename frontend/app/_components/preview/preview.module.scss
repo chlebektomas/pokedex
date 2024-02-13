@@ -1,0 +1,20 @@
+.previewButton {
+	svg {
+		width: 1.5rem;
+		height: 1.5rem;
+		cursor: pointer;
+		color: green;
+		transition: all 0.3s ease-in-out;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+
+.properties {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	gap: 1rem;
+}

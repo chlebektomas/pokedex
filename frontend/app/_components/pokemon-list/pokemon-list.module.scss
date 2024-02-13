@@ -1,0 +1,11 @@
+.pokemonGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 1.5rem;
+}
+
+.pokemonList {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
